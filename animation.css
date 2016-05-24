@@ -1,0 +1,281 @@
+@keyframes fillSignup {
+  75% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -120px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  90% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -123px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  95% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -124px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  100% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -125px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+}
+
+@-webkit-keyframes fillSignup {
+  75% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -120px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  90% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -123px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  95% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -124px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  100% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -125px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+}
+
+@-moz-keyframes fillSignup {
+  75% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -120px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  90% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -123px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  95% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -124px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  100% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -125px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+}
+
+@-o-keyframes fillSignup {
+  75% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -120px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  90% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -123px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  95% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -124px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+  100% {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -125px;
+    margin-left: -125px;
+    pointer-events: all;
+  }
+}
+
+@keyframes moveUp {
+  from {
+    margin-top: -25px;
+  }
+  to {
+    margin-top: -55px;
+  }
+}
+
+@-webkit-keyframes moveUp {
+  from {
+    margin-top: -25px;
+  }
+  to {
+    margin-top: -55px;
+  }
+}
+
+@-moz-keyframes moveUp {
+  from {
+    margin-top: -25px;
+  }
+  to {
+    margin-top: -55px;
+  }
+}
+
+@-o-keyframes moveUp {
+  from {
+    margin-top: -25px;
+  }
+  to {
+    margin-top: -55px;
+  }
+}
+
+@keyframes doneEntrance {
+  from {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-top: 40px;
+    margin-left: -10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #12FFB4;
+    color: transparent;
+  }
+  to {
+    width: 90px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-top: 37.5px;
+    margin-left: -45px;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #12FFB4;
+    color: white;
+  }
+}
+
+@keyframes transformDoneButton {
+  from {
+    width: 90px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin-top: 37.5px;
+    margin-left: -45px;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #12FFB4;
+    color: white;
+  }
+  to {
+    position: absolute;
+    left: 87.5%;
+    top: 92.5%;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
+    background-color: #12FFB4;
+    color: white;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: lighter;
+    z-index: 5;
+  }
+}
+
+@keyframes createFeedDiv {
+  from {
+    height: 225px;
+    width: 250px;
+    border-radius: 5px;
+    top: 60%;
+    margin-top: -125px;
+    margin-left: -125px;
+  }
+  to {
+    height: 450px;
+    width: 280px;
+    top: 57.5px;
+    left: 0%;
+    bottom: 0%;
+    margin: 0;
+    border-radius: 0px;
+  }
+}
+
+@keyframes navEntrance {
+  from {
+    top: -100px;
+    height: 57.5px;
+    width: 280px;
+  }
+  to {
+    top: 0%;
+    height: 57.5px;
+    width: 280px;
+  }
+}

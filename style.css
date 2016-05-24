@@ -1,0 +1,297 @@
+body {
+  background-color: #B0F7F1;
+  font-family: 'Muli', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+#mountain-icon {
+  position: absolute;
+  display: block;
+  height: 75px;
+  width: 75px;
+  left: 50%;
+  top: 25%;
+  margin-left: -37.5px;
+  margin-top: -37.5px;
+  border-radius: 100%;
+}
+
+.moveup-img {
+  animation: moveUp 1s forwards !important;
+}
+
+#element {
+  position: fixed;
+  display: block;
+  width: 280px;
+  height: 507.5px;
+  left: 50%;
+  top: 50%;
+  margin-left: -140px;
+  margin-top: -252.5px;
+  background-color: #5E2E91;
+}
+
+#signup-button {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  margin-top: -20px;
+  margin-left: -45px;
+  border-radius: 50px;
+  height: 40px;
+  width: 90px;
+  background-color: transparent;
+  color: #5E2E91;
+  border: none;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+#signin-div {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  margin-top: -20px;
+  margin-left: -45px;
+  border-radius: 50px;
+  background-color: white;
+  height: 40px;
+  width: 90px;
+  pointer-events: none;
+}
+
+.transform-signin {
+  animation: fillSignup .75s forwards !important;
+}
+
+.feed-div {
+  animation: createFeedDiv .25s forwards !important;
+}
+
+#first-bottom-line {
+  position: absolute;
+  bottom: 30px;
+  height: 2px;
+  width: 170px;
+  left: 50%;
+  margin-left: -85px;
+  background-color: grey;
+  opacity: .25; 
+}
+
+#second-bottom-line {
+  position: absolute;
+  bottom: 15px;
+  height: 2px;
+  width: 70px;
+  left: 50%;
+  margin-left: -35px;
+  background-color: grey;
+  opacity: .25;
+}
+
+#first-middle-line {
+  position: absolute;
+  bottom: 295px;
+  height: 7.5px;
+  width: 125px;
+  left: 50%;
+  margin-left: -62.5px;
+  background-color: white;
+  opacity: .35;
+  border-radius: 5px;
+}
+
+#second-middle-line {
+  position: absolute;
+  bottom: 275px;
+  height: 7.5px;
+  width: 90px;
+  left: 50%;
+  margin-left: -45px;
+  background-color: white;
+  opacity: .15;
+  border-radius: 5px;
+}
+
+#signin-username {
+  display: block;
+  border: none;
+  border-bottom: 1px solid grey;
+  opacity: .75;
+  height: 40px;
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#signin-username:focus {
+ outline: none;
+}
+
+#signin-email {
+  display: block;
+  border: none;
+  border-bottom: 1px solid grey;
+  opacity: .75;
+  height: 40px;
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#signin-email:focus {
+ outline: none;
+}
+
+#signin-password {
+  display: block;
+  border: none;
+  border-bottom: 1px solid grey;
+  opacity: .75;
+  height: 40px;
+  width: 175px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#signin-password:focus {
+ outline: none;
+}
+
+#done-button {
+  animation: doneEntrance .25s forwards;
+  border-radius: 50px;
+  font-weight: normal;
+  font-size: 12px;
+  border: none;
+}
+
+.transform-done {
+  animation: transformDoneButton .35s forwards !important;
+}
+
+.nav-entrance {
+  animation: navEntrance 1s forwards !important;
+}
+
+#nav-bar {
+  display: inline;
+}
+
+#menu-button {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  float: left;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: none;
+  background-color: transparent;
+  padding-top: 15px; 
+}
+
+#menu-button:focus {
+  outline: none;
+}
+
+#feed-header {
+  height: 40px;
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+#search-button {
+  height: 40px;
+  width: 40px;
+  right: 0%;
+  display: inline-block;
+  float: right;
+  margin-top: 4px;
+  border: none;
+  background-color: transparent;
+  padding-top: 15px; 
+}
+
+#search-button:focus {
+  outline: none;
+}
+
+i {
+  color: white;
+  font-size: 20px;
+}
+
+#feed-container {
+  position: relative;
+  display: block;
+  height: 399px;
+  width: 239px;
+  padding: 20px;
+  pointer-events: all;
+  overflow: auto;
+}
+
+.feed-element {
+  height: 75px;
+  width: 100%; 
+  padding: 0px;
+  margin: 0px;
+  pointer-events: all;
+}
+
+.circle {
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  opacity: .5;
+}
+
+.lines {
+  display: inline-block;
+  float: left;
+  width: 160px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.long-line {
+  height: 5px;
+  width: 150px;
+  opacity: .25;
+  margin-top: 15px;
+  background-color: black;
+}
+
+.short-line {
+  height: 5px;
+  width: 100px;
+  opacity: .25;
+  margin-top: 10px;
+  background-color: black;
+}

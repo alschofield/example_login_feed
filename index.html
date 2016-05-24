@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+  <link href="https://file.myfontastic.com/wvFjEyZ7Y4rnihwXhgm7Qn/icons.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./animation.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <!-- this would handle creating an individual element for each feed item, this would help with styling and can be easily modified -->
+  <script type="text/handlebars-template" id="feed-template">
+    <div id="feed-container">
+      {{#each post}}
+        <div class="feed-element">
+          <div class="circle" style=background-color:{{color}}></div>
+          <div class="lines">
+            <div class="long-line"></div>
+            <div class="short-line"></div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </script>
+
+  <script id="signin-template" type="signin-template/x-handlbars">
+    <input type="text" placeholder="Username" id="signin-username">
+    <input type="text" placeholder="Email ID" id="signin-email">
+    <input type="password" placeholder="Password" id="signin-password">
+    <button id="done-button">DONE</button>
+  </script>
+  <script type="text/handlebars-template" id="nav-template">
+    <div id="nav-bar">
+      <button id="menu-button">
+        <i class="icon-align-justify"></i>
+      </button>
+      <p id="feed-header">Feed</p>
+      <button id="search-button">
+        <i class="icon-search"></i>
+      </button>
+    </div>
+  </script>
+  <div id="element">
+    <img src="http://cache3.asset-cache.net/xc/495520238.jpg?v=2&c=IWSAsset&k=2&d=gXfU7YynvG_kojwNL5JMLA29FMBmQGKm01gMDcaMnBSXOa8n1ZTzy6uziAb3_Of80" id="mountain-icon">
+    <div class="line" id="first-middle-line"></div>
+    <div class="line" id="second-middle-line"></div>
+    <div id="signin-div"></div>
+    <button id="signup-button">SIGNUP</button>
+    <div class="line" id="first-bottom-line"></div>
+    <div class="line" id="second-bottom-line"></div>
+  </div>
+</body>
+</html>
